@@ -43,3 +43,5 @@ def get_dashboard_summary(db: Session = Depends(get_db)):
             "recent_activity": recent_activity
         }
     }
+    app =app
+    
